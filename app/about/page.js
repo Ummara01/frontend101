@@ -1,12 +1,14 @@
-"use client";
+'use client';
 import Image from "next/image";
 import { useState } from "react";
+import Link from 'next/link'; // เพิ่มบรรทัดนี้เพื่อนำเข้าคอมโพเนนต์ Link
 
 export default function About() {
   const [activeTab, setActiveTab] = useState("story");
 
   // ข้อมูลส่วนตัว
   const personalInfo = {
+    // ... (ข้อมูลส่วนตัวเหมือนเดิม) ...
     name: "Ummara Issaraphakdee",
     nickname: "นิว",
     role: "Cat Lover & Breeder",
@@ -474,7 +476,9 @@ export default function About() {
               หากคุณสนใจรับเลี้ยงน้องแมว หรือต้องการสอบถามเกี่ยวกับการดูแลแมว สามารถติดต่อได้ตามช่องทางด้านล่าง
             </p>
             <div className="d-flex justify-content-center gap-3">
-              <button
+              {/* ปุ่มที่แก้ไขแล้ว */}
+              <Link
+                href="/service"
                 className="btn px-4 py-2"
                 style={{
                   background: "#ff85a2",
@@ -482,9 +486,10 @@ export default function About() {
                   borderRadius: "30px",
                 }}
               >
-                <i className="bi bi-envelope-fill me-2"></i>
-                ส่งอีเมล
-              </button>
+                <i className=""></i>
+                😺น้องแมว
+              </Link>
+              {/* ปุ่มที่เหลือเหมือนเดิม */}
               <button
                 className="btn px-4 py-2"
                 style={{
