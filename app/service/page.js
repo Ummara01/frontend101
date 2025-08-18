@@ -12,7 +12,7 @@ export default function Service() {
       title: "ทัวร์เมืองเก่า",
       description: "สัมผัสเสน่ห์ของเมืองเก่าและประวัติศาสตร์อันยาวนาน ชมสถาปัตยกรรมโบราณ พร้อมเรียนรู้วัฒนธรรมท้องถิ่น",
       image: "/images/service1.jpg",
-      duration: "1 วัน",
+      duration: "ยังไม่มีบ้าน",
       price: "1,500 บาท/ท่าน",
       category: "cultural",
       highlights: [
@@ -26,7 +26,7 @@ export default function Service() {
       title: "ทัวร์ธรรมชาติและผจญภัย",
       description: "ผจญภัยไปกับเส้นทางธรรมชาติอันงดงาม ล่องแก่ง เดินป่า และกิจกรรมกลางแจ้งที่น่าตื่นเต้น",
       image: "/images/service2.jpg",
-      duration: "2 วัน 1 คืน",
+      duration: "ยังไม่มีบ้าน",
       price: "3,500 บาท/ท่าน",
       category: "adventure",
       highlights: [
@@ -39,8 +39,8 @@ export default function Service() {
       id: 3,
       title: "ทัวร์เกาะและชายหาด",
       description: "พักผ่อนบนชายหาดสวยและเกาะที่มีน้ำทะเลใสสะอาด ดำน้ำชมปะการังและสัตว์ทะเลหลากสี",
-      image: "/images/service3.jpg",
-      duration: "3 วัน 2 คืน",
+      image: "/images/card-2.jpg",
+      duration: "ยังไม่มีบ้าน",
       price: "5,500 บาท/ท่าน",
       category: "beach",
       highlights: [
@@ -54,7 +54,7 @@ export default function Service() {
       title: "ทัวร์อาหารและวัฒนธรรม",
       description: "สัมผัสวัฒนธรรมการกินของไทยผ่านอาหารท้องถิ่นรสเลิศ เรียนรู้การทำอาหารไทย และเยี่ยมชมตลาดท้องถิ่น",
       image: "/images/service4.jpg",
-      duration: "1 วัน",
+      duration: "ยังไม่มีบ้าน",
       price: "2,000 บาท/ท่าน",
       category: "cultural",
       highlights: [
@@ -68,7 +68,7 @@ export default function Service() {
       title: "ทัวร์ภูเขาและน้ำตก",
       description: "สัมผัสความสดชื่นของธรรมชาติบนภูเขา ชมวิวทิวทัศน์อันงดงาม และแช่น้ำตกใสเย็น",
       image: "/images/service5.jpg",
-      duration: "2 วัน 1 คืน",
+      duration: "ยังไม่มีบ้าน",
       price: "3,000 บาท/ท่าน",
       category: "adventure",
       highlights: [
@@ -82,7 +82,7 @@ export default function Service() {
       title: "ทัวร์ชุมชนท้องถิ่น",
       description: "เรียนรู้วิถีชีวิตของชุมชนท้องถิ่น ร่วมทำกิจกรรมกับชาวบ้าน และสัมผัสความเป็นอยู่แบบดั้งเดิม",
       image: "/images/service6.jpg",
-      duration: "2 วัน 1 คืน",
+      duration: "ยังไม่มีบ้าน",
       price: "2,500 บาท/ท่าน",
       category: "cultural",
       highlights: [
@@ -101,17 +101,17 @@ export default function Service() {
   // หมวดหมู่ทั้งหมด
   const categories = [
     { id: 'all', name: 'ทั้งหมด', icon: 'bi-grid-fill', color: '#ff85a2' },
-    { id: 'cultural', name: 'วัฒนธรรม', icon: 'bi-bank2', color: '#7ec4cf' },
-    { id: 'adventure', name: 'ผจญภัย', icon: 'bi-tree-fill', color: '#b892ff' },
-    { id: 'beach', name: 'ทะเล', icon: 'bi-water', color: '#ff85a2' }
+    { id: 'cultural', name: 'แมวพันธ์', icon: 'bi-bank2', color: '#7ec4cf' },
+    { id: 'adventure', name: 'แมวบ้าน', icon: 'bi-tree-fill', color: '#b892ff' },
+    { id: 'beach', name: 'แมวป่า', icon: 'bi-water', color: '#ff85a2' }
   ];
 
   return (
     <div className="container my-5">
       {/* Header Section */}
       <div className="text-center mb-5">
-        <h1 className="display-4 fw-bold mb-3" style={{ color: '#ff85a2' }}>บริการของเรา</h1>
-        <p className="lead mb-4">ค้นพบประสบการณ์ท่องเที่ยวที่หลากหลายและน่าประทับใจกับเรา</p>
+        <h1 className="display-4 fw-bold mb-3" style={{ color: '#ff85a2' }}>น้องหาบ้าน</h1>
+        <p className="lead mb-4">พ่อๆแม่ๆ คนไหนสนใจรับน้องๆไปเลี้ยงสามารถเลือกและติดต่อทางร้านได้เลยนะคะ</p>
         
         {/* Categories */}
         <div className="d-flex justify-content-center flex-wrap gap-3 mb-4">
@@ -162,8 +162,8 @@ export default function Service() {
                         service.category === 'cultural' ? 'bi-bank2' : 
                         service.category === 'adventure' ? 'bi-tree-fill' : 'bi-water'
                       } me-1`}></i>
-                      {service.category === 'cultural' ? 'วัฒนธรรม' : 
-                       service.category === 'adventure' ? 'ผจญภัย' : 'ทะเล'}
+                      {service.category === 'cultural' ? 'แมวพันธ์' : 
+                       service.category === 'adventure' ? 'แมวบ้าน' : 'แมวป่า'}
                     </span>
                     <span className="badge rounded-pill bg-white text-dark" style={{ padding: '8px 12px' }}>
                       <i className="bi bi-clock me-1"></i>
@@ -217,61 +217,13 @@ export default function Service() {
       </div>
 
       {/* Special Offers Section */}
-      <div className="row mt-5">
-        <div className="col-12">
-          <div className="p-4 rounded-4 shadow-sm" style={{ background: 'rgba(255, 133, 162, 0.1)' }}>
-            <div className="row align-items-center">
-              <div className="col-lg-8">
-                <h3 className="mb-3" style={{ color: '#ff85a2' }}>โปรโมชั่นพิเศษ</h3>
-                <p className="mb-4">จองทัวร์วันนี้รับส่วนลดทันที 15% สำหรับการเดินทางในเดือนหน้า พร้อมของสมนาคุณพิเศษ</p>
-                <div className="d-flex gap-3">
-                  <button className="btn px-4 py-2" style={{ background: '#ff85a2', color: 'white', borderRadius: '30px' }}>
-                    <i className="bi bi-calendar-check me-2"></i>
-                    จองเลย
-                  </button>
-                  <button className="btn px-4 py-2" style={{ background: 'transparent', color: '#ff85a2', borderRadius: '30px', border: '1px solid #ff85a2' }}>
-                    <i className="bi bi-info-circle me-2"></i>
-                    ดูรายละเอียด
-                  </button>
-                </div>
-              </div>
-              <div className="col-lg-4 text-center mt-4 mt-lg-0">
-                <div className="position-relative" style={{ width: '200px', height: '200px', margin: '0 auto' }}>
-                  <Image 
-                    src="/images/promotion.jpg" 
-                    alt="โปรโมชั่นพิเศษ" 
-                    width={200} 
-                    height={200}
-                    className="rounded-circle shadow"
-                    style={{ objectFit: 'cover', border: '5px solid white' }}
-                  />
-                  <div className="position-absolute" style={{ 
-                    top: '0', 
-                    right: '0', 
-                    background: '#ff85a2', 
-                    width: '60px', 
-                    height: '60px', 
-                    borderRadius: '50%', 
-                    display: 'flex', 
-                    alignItems: 'center', 
-                    justifyContent: 'center',
-                    boxShadow: '0 4px 10px rgba(0,0,0,0.1)',
-                    border: '3px solid white'
-                  }}>
-                    <div className="text-white fw-bold">-15%</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       {/* Testimonials Section */}
       <div className="row mt-5">
         <div className="col-12 text-center mb-4">
           <h3 className="mb-3" style={{ color: '#7ec4cf' }}>เสียงจากลูกค้า</h3>
-          <p className="mb-4">ความประทับใจจากผู้ที่เคยใช้บริการของเรา</p>
+          <p className="mb-4">ความประทับใจจากผู้ที่เคยรับเลี้ยงน้องแมวกับเรา</p>
         </div>
         <div className="col-md-4 mb-4">
           <div className="card border-0 shadow-sm h-100 p-4 rounded-4">
@@ -287,7 +239,7 @@ export default function Service() {
                 />
               </div>
               <div>
-                <h5 className="mb-1">คุณสมศักดิ์</h5>
+                <h5 className="mb-1">คุณมณีสีสวย</h5>
                 <div className="text-warning">
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>
@@ -297,7 +249,7 @@ export default function Service() {
                 </div>
               </div>
             </div>
-            <p className="card-text fst-italic">"ประทับใจมากกับทัวร์เมืองเก่า ไกด์มีความรู้และเป็นกันเอง ได้เรียนรู้ประวัติศาสตร์มากมาย อาหารอร่อย สถานที่สวยงาม แนะนำเลยครับ"</p>
+            <p className="card-text fst-italic">"ประทับใจมากกับน้องแมวที่ได้รับจากร้านนี้ พนักงานให้คำแนะนำการดูแลละเอียดและเป็นกันเอง น้องแมวสุขภาพดี ร่าเริง และเข้ากับครอบครัวได้ง่าย แนะนำเลยค่ะ"</p>
           </div>
         </div>
         <div className="col-md-4 mb-4">
@@ -314,7 +266,7 @@ export default function Service() {
                 />
               </div>
               <div>
-                <h5 className="mb-1">คุณนภา</h5>
+                <h5 className="mb-1">คุณแต้น</h5>
                 <div className="text-warning">
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>
@@ -324,7 +276,7 @@ export default function Service() {
                 </div>
               </div>
             </div>
-            <p className="card-text fst-italic">"ทัวร์เกาะและชายหาดสุดประทับใจ น้ำทะเลใสมาก ปะการังสวยงาม ที่พักสะดวกสบาย การดูแลเอาใจใส่ดีเยี่ยม จะกลับมาใช้บริการอีกแน่นอนค่ะ"</p>
+            <p className="card-text fst-italic">"การหาบ้านให้น้องแมวของที่นี่ดีมาก มีการคัดเลือกแมวอย่างเหมาะสม ทำให้เราพบน้องแมวที่เข้ากับไลฟ์สไตล์ของเรา การติดตามหลังรับเลี้ยงก็ดีเยี่ยม จะกลับมารับเลี้ยงอีกแน่นอนค่ะ"</p>
           </div>
         </div>
         <div className="col-md-4 mb-4">
@@ -341,7 +293,7 @@ export default function Service() {
                 />
               </div>
               <div>
-                <h5 className="mb-1">คุณวิชัย</h5>
+                <h5 className="mb-1">คุณวะรีเด็ด</h5>
                 <div className="text-warning">
                   <i className="bi bi-star-fill"></i>
                   <i className="bi bi-star-fill"></i>
@@ -351,7 +303,7 @@ export default function Service() {
                 </div>
               </div>
             </div>
-            <p className="card-text fst-italic">"ทัวร์ผจญภัยสุดมันส์! กิจกรรมล่องแก่งตื่นเต้นมาก แคมป์กลางป่าก็สะดวกเกินคาด อาหารอร่อย ไกด์ดูแลความปลอดภัยดีมาก ประทับใจสุดๆ"</p>
+            <p className="card-text fst-italic">"ประทับใจสุดๆ กับการบริการและความเอาใจใส่ของทีมงาน แมวทุกตัวได้รับการดูแลดีมาก การให้คำแนะนำเรื่องอาหารและสุขภาพแมวละเอียด ทำให้มั่นใจว่าจะเลี้ยงแมวได้อย่างถูกต้องและมีความสุข"</p>
           </div>
         </div>
       </div>
@@ -360,16 +312,12 @@ export default function Service() {
       <div className="row mt-4">
         <div className="col-12 text-center">
           <div className="p-4 rounded-4 shadow-sm" style={{ background: 'rgba(184, 146, 255, 0.1)' }}>
-            <h3 className="mb-3" style={{ color: '#b892ff' }}>สนใจบริการของเรา?</h3>
-            <p className="mb-4">ติดต่อเราเพื่อสอบถามข้อมูลเพิ่มเติมหรือจองทัวร์ได้ตามช่องทางด้านล่าง</p>
+            <h3 className="mb-3" style={{ color: '#b892ff' }}>สนใจรับเลี้ยงน้องแมวกับเรา?</h3>
+            <p className="mb-4">ติดต่อเราเพื่อสอบถามข้อมูลเพิ่มเติมหรือหาบ้านให้น้องแมวได้ตามช่องทางด้านล่าง</p>
             <div className="d-flex justify-content-center gap-3">
               <button className="btn px-4 py-2" style={{ background: '#b892ff', color: 'white', borderRadius: '30px' }}>
                 <i className="bi bi-telephone-fill me-2"></i>
                 โทรหาเรา
-              </button>
-              <button className="btn px-4 py-2" style={{ background: '#7ec4cf', color: 'white', borderRadius: '30px' }}>
-                <i className="bi bi-chat-fill me-2"></i>
-                แชทกับเรา
               </button>
               <button className="btn px-4 py-2" style={{ background: '#ff85a2', color: 'white', borderRadius: '30px' }}>
                 <i className="bi bi-envelope-fill me-2"></i>
