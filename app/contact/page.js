@@ -34,28 +34,27 @@ export default function Contact() {
   
   // ข้อมูลการติดต่อ
   const contactInfo = {
-    email: "mint@sweetdreams.com",
-    phone: "062-XXX-XXXX",
-    address: "123 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย กรุงเทพฯ 10110",
-    workingHours: "จันทร์-ศุกร์: 9:00 - 18:00 น.",
+    email: "findmycat@gcat.com",
+    phone: "061-XXX-XXXX",
+    address: "99/99 ต.ป่าไผ่ อ.เมือง จ.เชียงใหม่ 50100",
+    workingHours: "จันทร์-ศุกร์: 12:00 - 21:00 น.",
     socialMedia: [
-      { name: "Instagram", icon: "bi-instagram", color: "#ff85a2", link: "#" },
-      { name: "Facebook", icon: "bi-facebook", color: "#7ec4cf", link: "#" },
-      { name: "Line", icon: "bi-line", color: "#b892ff", link: "#" },
-      { name: "TikTok", icon: "bi-tiktok", color: "#ff85a2", link: "#" }
+      { name: "Instagram", icon: "bi-instagram", color: "#ff85a2", link: "https://www.instagram.com/mupmip_/" },
+      { name: "Facebook", icon: "bi-facebook", color: "#7ec4cf", link: "https://www.facebook.com/new.umr" },
+
     ],
     faq: [
       { 
-        question: "ทัวร์ของคุณรองรับกี่คนต่อกรุ๊ป?", 
-        answer: "ทัวร์ของเรารองรับตั้งแต่ 2-10 คนต่อกรุ๊ป เพื่อให้ทุกคนได้รับประสบการณ์ที่ดีที่สุด สำหรับกรุ๊ปใหญ่กว่านี้ สามารถติดต่อเราเพื่อจัดโปรแกรมพิเศษได้" 
+        question: "ร้านของคุณมีแมวสายพันธุ์ใดบ้าง?", 
+        answer: "เรามีน้องแมวหลายสายพันธุ์ให้เลือก ทั้งแมวบ้านและแมวพันธุ์แท้ เพื่อให้คุณได้พบแมวที่เหมาะกับไลฟ์สไตล์ของคุณ สำหรับสายพันธุ์เฉพาะหรือหายาก สามารถติดต่อเราเพื่อตรวจสอบเพิ่มเติมได้" 
       },
       { 
-        question: "มีบริการรับ-ส่งจากโรงแรมหรือไม่?", 
-        answer: "มีบริการรับ-ส่งจากโรงแรมในเขตกรุงเทพฯ และปริมณฑล สำหรับพื้นที่อื่นๆ อาจมีค่าใช้จ่ายเพิ่มเติม" 
+        question: "มีบริการตรวจสุขภาพหรือไม่?", 
+        answer: "ทุกน้องแมวผ่านการตรวจสุขภาพและฉีดวัคซีนตามมาตรฐานก่อนเข้ารับเลี้ยง สำหรับบริการตรวจสุขภาพเพิ่มเติมหรือปรึกษาด้านการเลี้ยง สามารถติดต่อเราได้" 
       },
       { 
-        question: "สามารถปรับเปลี่ยนโปรแกรมทัวร์ได้หรือไม่?", 
-        answer: "ได้ค่ะ เรามีบริการออกแบบทัวร์ตามความต้องการของลูกค้า โดยคุณสามารถติดต่อเราโดยตรงเพื่อปรึกษารายละเอียด" 
+        question: "สามารถปรับเปลี่ยนขั้นตอนการรับเลี้ยงได้หรือไม่?", 
+        answer: "ได้ค่ะ เรามีบริการให้คำปรึกษาและปรับกระบวนการรับเลี้ยงตามความต้องการของผู้เลี้ยง เพื่อให้มั่นใจว่าน้องแมวจะได้บ้านที่เหมาะสมและปลอดภัย" 
       }
     ]
   };
@@ -65,7 +64,7 @@ export default function Contact() {
       {/* Header Section */}
       <div className="text-center mb-5">
         <h1 className="display-4 fw-bold mb-3" style={{ color: '#ff85a2' }}>ติดต่อเรา</h1>
-        <p className="lead mb-4">มีคำถามหรือข้อสงสัย? ติดต่อเราได้ตลอดเวลา เรายินดีให้คำปรึกษาและช่วยเหลือคุณ</p>
+        <p className="lead mb-4">มีคำถามหรือข้อสงสัยเกี่ยวกับการรับเลี้ยงน้องแมว? ติดต่อเราได้ตลอดเวลา เรายินดีให้คำปรึกษาและช่วยเหลือคุณเพื่อให้น้องแมวได้บ้านที่อบอุ่น</p>
         <div className="d-flex justify-content-center gap-3 mb-4">
           {contactInfo.socialMedia.map((social, index) => (
             <a key={index} href={social.link} className="text-decoration-none" target="_blank" rel="noopener noreferrer">
@@ -165,9 +164,9 @@ export default function Contact() {
                   <div className="p-4">
                     <h3 className="mb-4" style={{ color: '#ff85a2' }}>
                       <i className="bi bi-chat-heart-fill me-2"></i>
-                      ส่งข้อความถึงเรา
+                      ส่งข้อความถึงแมว
                     </h3>
-                    <p className="mb-4">กรอกแบบฟอร์มด้านล่างเพื่อส่งข้อความถึงเรา เราจะติดต่อกลับโดยเร็วที่สุด</p>
+                    <p className="mb-4">กรอกแบบฟอร์มด้านล่างเพื่อส่งข้อความถึงแมวเกี่ยวกับการรับเลี้ยงน้องแมว</p>
                     <form onSubmit={handleSubmit}>
                       <div className="mb-3">
                         <label htmlFor="name" className="form-label">ชื่อ-นามสกุล</label>
@@ -246,7 +245,7 @@ export default function Contact() {
                   <div className="text-center">
                     <div className="position-relative" style={{ width: '300px', height: '300px', margin: '0 auto' }}>
                       <Image 
-                        src="/images/profile.jpg" 
+                        src="/images/G-1.jpg" 
                         alt="Contact Us" 
                         width={300} 
                         height={300}
@@ -269,7 +268,7 @@ export default function Contact() {
                         <i className="bi bi-chat-heart-fill fs-4 text-white"></i>
                       </div>
                     </div>
-                    <p className="mt-4 fst-italic">"เราพร้อมรับฟังทุกความคิดเห็นและคำแนะนำจากคุณ"</p>
+                    <p className="mt-4 fst-italic">"เรื่องแมวๆต้องเรา"</p>
                   </div>
                 </div>
               </div>
@@ -461,43 +460,8 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* Newsletter Section */}
-      <div className="row mt-5">
-        <div className="col-12">
-          <div className="p-4 rounded-4 shadow-sm text-center" style={{ background: 'rgba(255, 133, 162, 0.1)' }}>
-            <h3 className="mb-3" style={{ color: '#ff85a2' }}>รับข่าวสารและโปรโมชั่น</h3>
-            <p className="mb-4">ลงทะเบียนเพื่อรับข่าวสารและโปรโมชั่นพิเศษจากเราก่อนใคร</p>
-            <div className="row justify-content-center">
-              <div className="col-md-6">
-                <div className="input-group mb-3">
-                  <input 
-                    type="email" 
-                    className="form-control" 
-                    placeholder="กรอกอีเมลของคุณ" 
-                    aria-label="Email" 
-                    aria-describedby="button-addon2"
-                    style={{ borderRadius: '30px 0 0 30px', padding: '12px 15px', border: '1px solid #ffe0e9' }}
-                  />
-                  <button 
-                    className="btn px-4" 
-                    type="button" 
-                    id="button-addon2"
-                    style={{ 
-                      background: '#ff85a2', 
-                      color: 'white', 
-                      borderRadius: '0 30px 30px 0',
-                      border: '1px solid #ff85a2'
-                    }}
-                  >
-                    <i className="bi bi-envelope-check-fill me-2"></i>
-                    สมัครรับข่าวสาร
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
+      
         </div>
-      </div>
-    </div>
+    
   );
 }
