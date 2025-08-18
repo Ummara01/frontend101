@@ -365,7 +365,7 @@ export default function Service() {
                 <i className="bi bi-envelope-fill me-2"></i>
                 ส่งอีเมล
               </button>
-            </div>
+            </div>  
           </div>
         </div>
       </div>
