@@ -48,7 +48,7 @@ export default function Navbar() {
                 aria-expanded="false" 
                 style={{color:'#9d7cd8'}}
               >
-                บริการของเรา
+                น้องหาบ้าน
               </a>
             </li>
             <li className="nav-item mx-2">
