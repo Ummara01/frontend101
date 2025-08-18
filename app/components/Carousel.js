@@ -40,22 +40,13 @@ export default function Carousel() {
   // Carousel captions data
   const captions = [
     {
-      title: "ประตูท่าแพ",
-      description: "จุดเช็คอินสุดฮิตกลางเมือง",
-      buttonText: "Explore",
-      color: "#ff85a2",
+    
     },
     {
-      title: "อุทยานแห่งชาติดอยอินทนนท์",
-      description: "สูงสุดแดนสยาม",
-      buttonText: "Explore",
-      color: "#7ec4cf",
+    
     },
     {
-      title: "วัดเจดีย์หลวง",
-      description: "วัดคู่บ้านคู่เมือง",
-      buttonText: "Explore",
-      color: "#b892ff",
+   
     },
   ];
 
@@ -127,7 +118,7 @@ export default function Carousel() {
               <Image 
                 src="/images/f2.jpg" 
                 className="d-block w-100" 
-                 
+                alt="ประตูท่าแพ" 
                 width={1920} 
                 height={690} 
                 style={{ 
@@ -164,18 +155,7 @@ export default function Carousel() {
                   fontFamily: 'Poppins, sans-serif',
                   display: isMobile ? 'none' : 'block'
                 }}>{captions[0].description}</p>
-                <button style={{
-                  background: 'white',
-                  color: captions[0].color,
-                  border: 'none',
-                  padding: isMobile ? '8px 20px' : '10px 25px',
-                  borderRadius: '30px',
-                  fontWeight: 'bold',
-                  fontSize: isMobile ? '0.9rem' : '1rem',
-                  cursor: 'pointer',
-                  boxShadow: '0 4px 10px rgba(0,0,0,0.1)',
-                  transition: 'all 0.3s ease'
-                }}>{captions[0].buttonText}</button>
+                
               </div>
             </div>
           </div>
@@ -184,7 +164,7 @@ export default function Carousel() {
               <Image 
                 src="/images/f3.png" 
                 className="d-block w-100" 
-                alt="อุทยานแห่งชาติดอยอินทนนท์" 
+                alt="" 
                 width={1920} 
                 height={690} 
                 style={{ 
@@ -220,18 +200,7 @@ export default function Carousel() {
                   fontFamily: 'Poppins, sans-serif',
                   display: isMobile ? 'none' : 'block'
                 }}>{captions[1].description}</p>
-                <button style={{
-                  background: 'white',
-                  color: captions[1].color,
-                  border: 'none',
-                  padding: isMobile ? '8px 20px' : '10px 25px',
-                  borderRadius: '30px',
-                  fontWeight: 'bold',
-                  fontSize: isMobile ? '0.9rem' : '1rem',
-                  cursor: 'pointer',
-                  boxShadow: '0 4px 10px rgba(0,0,0,0.1)',
-                  transition: 'all 0.3s ease'
-                }}>{captions[1].buttonText}</button>
+                
               </div>
             </div>
           </div>
@@ -276,18 +245,7 @@ export default function Carousel() {
                   fontFamily: 'Poppins, sans-serif',
                   display: isMobile ? 'none' : 'block'
                 }}>{captions[2].description}</p>
-                <button style={{
-                  background: 'white',
-                  color: captions[2].color,
-                  border: 'none',
-                  padding: isMobile ? '8px 20px' : '10px 25px',
-                  borderRadius: '30px',
-                  fontWeight: 'bold',
-                  fontSize: isMobile ? '0.9rem' : '1rem',
-                  cursor: 'pointer',
-                  boxShadow: '0 4px 10px rgba(0,0,0,0.1)',
-                  transition: 'all 0.3s ease'
-                }}>{captions[2].buttonText}</button>
+               
               </div>
             </div>
           </div>
