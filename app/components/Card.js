@@ -16,26 +16,27 @@ export default function Card(){
     const cards = [
       {
         image: "/images/card-1.jpg",
-        title: "วัดพระสิงห์วรมหาวิหาร",
-        description: "พระพุทธรูปศักดิ์สิทธิ์คู่เมืองเชียงใหม่",
+        title: "บริติช ช็อตแฮร์ สีส้ม",
+        description: 
+        "หาบ้านให้น้องขนฟูตัวนี้ 3 ใบเทา",
         gradient: "linear-gradient(to bottom, #ffe6f2, #fff)",
         titleColor: "#d291bc",
         buttonColor: "#d291bc",
       },
       {
         image: "/images/card-2.jpg",
-        title: "พระบรมราชานุสาวรีย์สามกษัตริย์",
+        title: "แมวมานูล",
         description:
-          "พระบรมราชานุสาวรีย์ของพระมหากษัตริย์สามพระองค์ผู้สร้างเวียงเชียงใหม่",
+          "หาบ้านให้น้อง น้องเป็นแมวป่า มีขนหนาเพื่อให้อบอุ่น รวมถึงใบหน้าดุดัน 50 ใบเทา",
         gradient: "linear-gradient(to bottom, #e0c3fc, #fff)",
         titleColor: "#9d7cd8",
         buttonColor: "#9d7cd8",
       },
       {
         image: "/images/f7.jpg",
-        title: "ผาช่อ",
+        title: "บริติช ลองแฮร์",
         description:
-          "การเปลี่ยนแปลงทางธรณีวิทยา ซึ่งเป็นทางเดินของสายน้ำปิงเมื่อหลายพันปีมาแล้ว",
+          "หาบ้านให้น้องแมวขนยาวสีขาวสลับส้ม ขนฟูและมีใบหน้ากลม 3 ใบเทา",
         gradient: "linear-gradient(to bottom, #b5ead7, #fff)",
         titleColor: "#5bae9e",
         buttonColor: "#5bae9e",
