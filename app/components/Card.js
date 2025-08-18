@@ -15,28 +15,28 @@ export default function Card(){
     
     const cards = [
       {
-        image: "/images/card-1.jpg",
-        title: "บริติช ช็อตแฮร์ สีส้ม",
+        image: "/images/carousel-3.jpg",
+        title: "แมวบ้าน",
         description: 
-        "หาบ้านให้น้องขนฟูตัวนี้ 3 ใบเทา",
+        "เป็นแมวที่พบเห็นได้ทั่วไปมากที่สุดในชีวิตประจำวัน ไม่ได้ถูกผสมพันธุ์หรือคัดเลือกโดยมนุษย์เพื่อสร้างลักษณะเฉพาะที่ตายตัว",
         gradient: "linear-gradient(to bottom, #ffe6f2, #fff)",
         titleColor: "#d291bc",
         buttonColor: "#d291bc",
       },
       {
         image: "/images/card-2.jpg",
-        title: "แมวมานูล",
+        title: "แมวป่า",
         description:
-          "หาบ้านให้น้อง น้องเป็นแมวป่า มีขนหนาเพื่อให้อบอุ่น รวมถึงใบหน้าดุดัน 50 ใบเทา",
+          "เป็นแมวที่ไม่ได้ถูกนำมาเลี้ยงเป็นสัตว์เลี้ยงโดยทั่วไป และมีสัญชาตญาณความเป็นนักล่าสูง",
         gradient: "linear-gradient(to bottom, #e0c3fc, #fff)",
         titleColor: "#9d7cd8",
         buttonColor: "#9d7cd8",
       },
       {
         image: "/images/f7.jpg",
-        title: "บริติช ลองแฮร์",
+        title: "แมวพันธ์",
         description:
-          "หาบ้านให้น้องแมวขนยาวสีขาวสลับส้ม ขนฟูและมีใบหน้ากลม 3 ใบเทา",
+          "เป็นแมวที่ถูกพัฒนาและคัดเลือกสายพันธุ์โดยมนุษย์อย่างเป็นระบบมาเป็นเวลานาน เพื่อให้มีลักษณะทางกายภาพและนิสัยที่คงที่และเป็นไปตามมาตรฐานของสมาคมแมว",
         gradient: "linear-gradient(to bottom, #b5ead7, #fff)",
         titleColor: "#5bae9e",
         buttonColor: "#5bae9e",
@@ -45,7 +45,7 @@ export default function Card(){
     
     return (
         <div className="container my-5">
-            <h3 className="mb-4 text-center" style={{color:'#d291bc', fontWeight:'600', fontFamily:'Poppins, sans-serif'}}>น้องแมวหาบ้าน</h3>
+            <h3 className="mb-4 text-center" style={{color:'#d291bc', fontWeight:'600', fontFamily:'Poppins, sans-serif'}}>ความต่างของแมวแต่ละสายพันธ์</h3>
             <div className="row g-4 justify-content-center">
                 {cards.map((card, index) => (
                     <div className="col-md-4 mb-4" key={index}>
@@ -96,21 +96,7 @@ export default function Card(){
                                 <p className="card-text" style={{color:'#888', fontSize: '0.9rem', marginBottom: '1rem'}}>
                                     {card.description}
                                 </p>
-                                <button 
-                                    className="btn btn-sm" 
-                                    style={{
-                                        background: 'white',
-                                        color: card.buttonColor,
-                                        borderRadius: '2rem',
-                                        padding: '0.25rem 1rem',
-                                        fontSize: '0.85rem',
-                                        border: `1px solid ${card.buttonColor}`,
-                                        transition: 'all 0.3s',
-                                        opacity: hoveredCard === index ? 1 : 0.8
-                                    }}
-                                >
-                                    View Details
-                                </button>
+                               
                             </div>
                         </div>
                     </div>
