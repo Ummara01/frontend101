@@ -143,7 +143,7 @@ export default function Footer() {
                     transition: "color 0.3s",
                   }}
                 >
-                  บริการของเรา
+                  น้องหาบ้าน
                 </Link>
               </li>
               <li className="mb-2">
