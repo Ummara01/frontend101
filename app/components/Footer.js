@@ -35,13 +35,8 @@ export default function Footer() {
                 className="text-muted"
                 style={{ fontSize: "0.9rem", lineHeight: "1.6" }}
               >
-                
+                {/* เพิ่มข้อความที่นี่ */}
               </p>
-            </div>
-            <div className="d-flex gap-3 mb-3">
-             
-             
-            
             </div>
           </div>
 
@@ -123,7 +118,7 @@ export default function Footer() {
                 marginBottom: "1.25rem",
               }}
             >
-             คำอธิบายเว็บไซต์
+              คำอธิบายเว็บไซต์
             </h5>
             <ul className="list-unstyled">
               <li className="mb-2">
@@ -136,71 +131,8 @@ export default function Footer() {
                     transition: "color 0.3s",
                   }}
                 >
-                 เว็บไซต์นี้สร้างขึ้นเพื่อเป็นพื้นที่กลางในการ หาบ้านที่อบอุ่นให้น้องแมวหลากหลายสายพันธุ์ โดยเน้นความรัก ความใส่ใจ และความรับผิดชอบของผู้เลี้ยง
+                  เว็บไซต์นี้สร้างขึ้นเพื่อเป็นพื้นที่กลางในการ หาบ้านที่อบอุ่นให้น้องแมวหลากหลายสายพันธุ์ โดยเน้นความรัก ความใส่ใจ และความรับผิดชอบของผู้เลี้ยง
                 </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  href="/service/app"
-                  className="text-decoration-none"
-                  style={{
-                    color: "#666",
-                    fontSize: "0.9rem",
-                    transition: "color 0.3s",
-                  }}
-                >
-                  
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  href="/service/design"
-                  className="text-decoration-none"
-                  style={{
-                    color: "#666",
-                    fontSize: "0.9rem",
-                    transition: "color 0.3s",
-                  }}
-                >
-                  
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  href="/service/other"
-                  className="text-decoration-none"
-                  style={{
-                    color: "#666",
-                    fontSize: "0.9rem",
-                    transition: "color 0.3s",
-                  }}
-                >
-                 
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  href="/about"
-                  className="text-decoration-none"
-                  style={{
-                    color: "#666",
-                    fontSize: "0.9rem",
-                    transition: "color 0.3s",
-                  }}
-                >
-              
-                </Link>
-              </li>
-              <li className="mb-2">
-                <Link
-                  href="/admin/users"
-                  className="text-decoration-none"
-                  style={{
-                    color: "#666",
-                    fontSize: "0.9rem",
-                    transition: "color 0.3s",
-                  }}
-                  ></Link>
               </li>
             </ul>
           </div>
@@ -233,9 +165,10 @@ export default function Footer() {
                     fontSize: "0.9rem",
                   }}
                 />
-                <button
+                {/* เปลี่ยน Link เป็น a tag หรือ button ธรรมดา และใส่ href ไปที่หน้า contact */}
+                <a
+                  href="/contact"
                   className="btn"
-                  type="submit"
                   style={{
                     borderRadius: "0 2rem 2rem 0",
                     background: "#5bae9e",
@@ -244,8 +177,8 @@ export default function Footer() {
                     padding: "0.5rem 1.25rem",
                   }}
                 >
-                  Subscribe
-                </button>
+                  submit
+                </a>
               </div>
             </form>
           </div>
