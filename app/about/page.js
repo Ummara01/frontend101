@@ -469,7 +469,7 @@ export default function About() {
             className="p-4 rounded-4 shadow-sm"
             style={{ background: "rgba(255, 133, 162, 0.1)" }}
           >
-            <h3 className="mb-3" style={{ color: "#ff85a2" }}>
+            <h3 className="mb-3" style={{ color: "#f0bb49ff" }}>
               สนใจรับเลี้ยงน้องแมว
             </h3>
             <p className="mb-4">
@@ -481,7 +481,7 @@ export default function About() {
                 href="/service"
                 className="btn px-4 py-2"
                 style={{
-                  background: "#ff85a2",
+                  background: "#f0bb49ff",
                   color: "white",
                   borderRadius: "30px",
                 }}
@@ -490,18 +490,7 @@ export default function About() {
                 😺น้องแมว
               </Link>
               {/* ปุ่มที่เหลือเหมือนเดิม */}
-              <button
-                className="btn px-4 py-2"
-                style={{
-                  background: "#7ec4cf",
-                  color: "white",
-                  borderRadius: "30px",
-                  
-                }}
-              >
-                <i className="bi bi-chat-fill me-2"></i>
-                แชทกับฉัน
-              </button>
+              
             </div>
           </div>
         </div>
