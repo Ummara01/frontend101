@@ -118,7 +118,7 @@ export default function Carousel() {
               <Image 
                 src="/images/f2.jpg" 
                 className="d-block w-100" 
-                alt="ประตูท่าแพ" 
+                alt="แมวๆ" 
                 width={1920} 
                 height={690} 
                 style={{ 
