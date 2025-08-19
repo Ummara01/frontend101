@@ -138,7 +138,7 @@ export default function Register() {
           <div className="card border-0 shadow-lg rounded-4">
             <div className="card-body p-5">
               <div className="text-center mb-4">
-                <h2 className="fw-bold mb-3" style={{ color: "#ff85a2" }}>
+                <h2 className="fw-bold mb-3" style={{ color: "#FF9E80" }}>
                   สมัครสมาชิก
                 </h2>
               </div>
@@ -313,7 +313,7 @@ export default function Register() {
                     type="submit"
                     className="btn btn-lg py-3"
                     style={{
-                      background: "linear-gradient(135deg, #ff85a2, #ff6b8a)",
+                      background: "linear-gradient(135deg, #fab39dff, #fc8b68ff)",
                       border: "none",
                       borderRadius: "12px",
                       color: "white",
@@ -331,7 +331,7 @@ export default function Register() {
                   <a
                     href="/login"
                     className="ms-1"
-                    style={{ color: "#ff85a2" }}
+                    style={{ color: "#FF9E80" }}
                   >
                     เข้าสู่ระบบ
                   </a>
