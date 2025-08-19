@@ -28,7 +28,7 @@ export default function Footer() {
                     fontSize: "1.25rem",
                   }}
                 >
-                  What The Tour
+                  Find my cat
                 </span>
               </Link>
               <p
@@ -307,7 +307,7 @@ export default function Footer() {
           <div className="row align-items-center">
             <div className="col-md-6 text-center text-md-start">
               <p className="text-muted mb-0" style={{ fontSize: "0.85rem" }}>
-                © 2025 What The Tour Co. All rights reserved.
+                © 2025 Find my cat Co. All rights reserved.
               </p>
             </div>
             <div className="col-md-6 text-center text-md-end">
