@@ -62,7 +62,7 @@ export default function Carousel() {
           animation: 'float 3s ease-in-out infinite',
           display: isMobile ? 'none' : 'block' 
         }}>
-          <div style={{ width: '50px', height: '50px', background: 'rgba(255, 133, 162, 0.7)', borderRadius: '50%', backdropFilter: 'blur(5px)' }}></div>
+          
         </div>
         <div style={{ 
           position: 'absolute', 
@@ -72,7 +72,6 @@ export default function Carousel() {
           animation: 'float 4s ease-in-out infinite',
           display: isMobile ? 'none' : 'block'
         }}>
-          <div style={{ width: '30px', height: '30px', background: 'rgba(126, 196, 207, 0.7)', borderRadius: '50%', backdropFilter: 'blur(5px)' }}></div>
         </div>
         <div style={{ 
           position: 'absolute', 
@@ -82,8 +81,7 @@ export default function Carousel() {
           animation: 'float 5s ease-in-out infinite',
           display: isMobile ? 'none' : 'block'
         }}>
-          <div style={{ width: '20px', height: '20px', background: 'rgba(184, 146, 255, 0.7)', borderRadius: '50%', backdropFilter: 'blur(5px)' }}></div>
-        </div>
+           </div>
       </div>
 
       <div id="carouselExample" className="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
