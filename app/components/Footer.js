@@ -225,7 +225,7 @@ export default function Footer() {
                 <input
                   type="email"
                   className="form-control"
-                  placeholder="ส่งข้อความ"
+                  placeholder="ส่งอีเมล"
                   style={{
                     borderRadius: "2rem 0 0 2rem",
                     border: "1px solid #eee",
