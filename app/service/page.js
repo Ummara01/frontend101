@@ -353,20 +353,7 @@ export default function Service() {
       {/* Contact Section */}
       <div className="row mt-4">
         <div className="col-12 text-center">
-          <div className="p-4 rounded-4 shadow-sm" style={{ background: 'rgba(184, 146, 255, 0.1)' }}>
-            <h3 className="mb-3" style={{ color: '#b892ff' }}>สนใจรับเลี้ยงน้องแมวกับเรา?</h3>
-            <p className="mb-4">ติดต่อเราเพื่อสอบถามข้อมูลเพิ่มเติมหรือหาบ้านให้น้องแมวได้ตามช่องทางด้านล่าง</p>
-            <div className="d-flex justify-content-center gap-3">
-              <button className="btn px-4 py-2" style={{ background: '#b892ff', color: 'white', borderRadius: '30px' }}>
-                <i className="bi bi-telephone-fill me-2"></i>
-                โทรหาเรา
-              </button>
-              <button className="btn px-4 py-2" style={{ background: '#ff85a2', color: 'white', borderRadius: '30px' }}>
-                <i className="bi bi-envelope-fill me-2"></i>
-                ส่งอีเมล
-              </button>
-            </div>  
-          </div>
+          
         </div>
       </div>
     </div>
