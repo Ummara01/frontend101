@@ -128,7 +128,7 @@ export default function Service() {
       price: "ราคา: 5 ใบเทา 5 ใบแดง",
       category: "adventure",
       highlights: [
-        "พันธุ์เปอร์เซีย",
+        "แมวบ้าน",
         "เพศ: เมีย",
         "ฉีดวัคซีนแล้ว: ฉีดแล้ว"
       ]
