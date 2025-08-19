@@ -35,62 +35,13 @@ export default function Footer() {
                 className="text-muted"
                 style={{ fontSize: "0.9rem", lineHeight: "1.6" }}
               >
-                Creating beautiful moments and sweet memories with our carefully
-                curated collection of premium products.
+                
               </p>
             </div>
             <div className="d-flex gap-3 mb-3">
-              <a
-                href="#"
-                className="social-icon"
-                style={{
-                  color: "#d291bc",
-                  background: "rgba(210, 145, 188, 0.1)",
-                  width: "36px",
-                  height: "36px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  borderRadius: "50%",
-                  transition: "all 0.3s",
-                }}
-              >
-                <i className="bi bi-instagram"></i>
-              </a>
-              <a
-                href="#"
-                className="social-icon"
-                style={{
-                  color: "#9d7cd8",
-                  background: "rgba(157, 124, 216, 0.1)",
-                  width: "36px",
-                  height: "36px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  borderRadius: "50%",
-                  transition: "all 0.3s",
-                }}
-              >
-                <i className="bi bi-facebook"></i>
-              </a>
-              <a
-                href="#"
-                className="social-icon"
-                style={{
-                  color: "#5bae9e",
-                  background: "rgba(91, 174, 158, 0.1)",
-                  width: "36px",
-                  height: "36px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  borderRadius: "50%",
-                  transition: "all 0.3s",
-                }}
-              >
-                <i className="bi bi-twitter"></i>
-              </a>
+             
+             
+            
             </div>
           </div>
 
@@ -104,7 +55,7 @@ export default function Footer() {
                 marginBottom: "1.25rem",
               }}
             >
-              Quick Links
+              หน้าต่างๆ
             </h5>
             <ul className="list-unstyled">
               <li className="mb-2">
@@ -172,7 +123,7 @@ export default function Footer() {
                 marginBottom: "1.25rem",
               }}
             >
-              Services
+             คำอธิบายเว็บไซต์
             </h5>
             <ul className="list-unstyled">
               <li className="mb-2">
@@ -185,7 +136,7 @@ export default function Footer() {
                     transition: "color 0.3s",
                   }}
                 >
-                  Web Development
+                 เว็บไซต์นี้สร้างขึ้นเพื่อเป็นพื้นที่กลางในการ หาบ้านที่อบอุ่นให้น้องแมวหลากหลายสายพันธุ์ โดยเน้นความรัก ความใส่ใจ และความรับผิดชอบของผู้เลี้ยง
                 </Link>
               </li>
               <li className="mb-2">
@@ -198,7 +149,7 @@ export default function Footer() {
                     transition: "color 0.3s",
                   }}
                 >
-                  App Development
+                  
                 </Link>
               </li>
               <li className="mb-2">
@@ -211,7 +162,7 @@ export default function Footer() {
                     transition: "color 0.3s",
                   }}
                 >
-                  UI/UX Design
+                  
                 </Link>
               </li>
               <li className="mb-2">
@@ -224,7 +175,7 @@ export default function Footer() {
                     transition: "color 0.3s",
                   }}
                 >
-                  Other Services
+                 
                 </Link>
               </li>
               <li className="mb-2">
@@ -237,7 +188,7 @@ export default function Footer() {
                     transition: "color 0.3s",
                   }}
                 >
-              admin
+              
                 </Link>
               </li>
               <li className="mb-2">
@@ -264,17 +215,17 @@ export default function Footer() {
                 marginBottom: "1.25rem",
               }}
             >
-              Newsletter
+              ติดต่อเรา
             </h5>
             <p className="text-muted mb-3" style={{ fontSize: "0.9rem" }}>
-              Subscribe to our newsletter for updates and special offers.
+              ติดต่อสอบถามหรือติดต่อเพื่อบริจากอาหาร
             </p>
             <form className="mb-3">
               <div className="input-group">
                 <input
                   type="email"
                   className="form-control"
-                  placeholder="Your email"
+                  placeholder="ส่งข้อความ"
                   style={{
                     borderRadius: "2rem 0 0 2rem",
                     border: "1px solid #eee",
