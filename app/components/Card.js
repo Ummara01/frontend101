@@ -19,8 +19,8 @@ export default function Card(){
         title: "แมวบ้าน",
         description: 
         "เป็นแมวที่พบเห็นได้ทั่วไปมากที่สุดในชีวิตประจำวัน ไม่ได้ถูกผสมพันธุ์หรือคัดเลือกโดยมนุษย์เพื่อสร้างลักษณะเฉพาะที่ตายตัว",
-        gradient: "linear-gradient(to bottom, #ffe6f2, #fff)",
-        titleColor: "#d291bc",
+        gradient: "linear-gradient(to bottom, #ffe5acff, #fff)",
+        titleColor: "#ffaf38ff",
         buttonColor: "#d291bc",
       },
       {
@@ -28,8 +28,8 @@ export default function Card(){
         title: "แมวป่า",
         description:
           "เป็นแมวที่ไม่ได้ถูกนำมาเลี้ยงเป็นสัตว์เลี้ยงโดยทั่วไป และมีสัญชาตญาณความเป็นนักล่าสูง",
-        gradient: "linear-gradient(to bottom, #e0c3fc, #fff)",
-        titleColor: "#9d7cd8",
+        gradient: "linear-gradient(to bottom, #bfffafff, #fff)",
+        titleColor: "#2bd32bff",
         buttonColor: "#9d7cd8",
       },
       {
@@ -45,7 +45,7 @@ export default function Card(){
     
     return (
         <div className="container my-5">
-            <h3 className="mb-4 text-center" style={{color:'#d291bc', fontWeight:'600', fontFamily:'Poppins, sans-serif'}}>ความต่างของแมวแต่ละสายพันธ์</h3>
+            <h3 className="mb-4 text-center" style={{color:'#FFB6C1', fontWeight:'600', fontFamily:'Poppins, sans-serif'}}>ความต่างของแมวแต่ละสายพันธ์</h3>
             <div className="row g-4 justify-content-center">
                 {cards.map((card, index) => (
                     <div className="col-md-4 mb-4" key={index}>
