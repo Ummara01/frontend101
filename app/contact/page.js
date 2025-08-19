@@ -63,7 +63,7 @@ export default function Contact() {
     <div className="container my-5">
       {/* Header Section */}
       <div className="text-center mb-5">
-        <h1 className="display-4 fw-bold mb-3" style={{ color: '#ff85a2' }}>ติดต่อเรา</h1>
+        <h1 className="display-4 fw-bold mb-3" style={{ color: '#FF9E80' }}>ติดต่อเรา</h1>
         <p className="lead mb-4">มีคำถามหรือข้อสงสัยเกี่ยวกับการรับเลี้ยงน้องแมว? ติดต่อเราได้ตลอดเวลา เรายินดีให้คำปรึกษาและช่วยเหลือคุณเพื่อให้น้องแมวได้บ้านที่อบอุ่น</p>
         <div className="d-flex justify-content-center gap-3 mb-4">
           {contactInfo.socialMedia.map((social, index) => (
@@ -95,7 +95,7 @@ export default function Contact() {
                 className={`nav-link ${activeMethod === 'form' ? 'active' : ''}`} 
                 onClick={() => setActiveMethod('form')}
                 style={{ 
-                  background: activeMethod === 'form' ? '#ff85a2' : 'transparent',
+                  background: activeMethod === 'form' ? '#FF9E80' : 'transparent',
                   color: activeMethod === 'form' ? 'white' : '#666',
                   borderRadius: '30px',
                   padding: '10px 20px',
@@ -113,7 +113,7 @@ export default function Contact() {
                 className={`nav-link ${activeMethod === 'info' ? 'active' : ''}`} 
                 onClick={() => setActiveMethod('info')}
                 style={{ 
-                  background: activeMethod === 'info' ? '#7ec4cf' : 'transparent',
+                  background: activeMethod === 'info' ? '#72dfdfff' : 'transparent',
                   color: activeMethod === 'info' ? 'white' : '#666',
                   borderRadius: '30px',
                   padding: '10px 20px',
@@ -131,7 +131,7 @@ export default function Contact() {
                 className={`nav-link ${activeMethod === 'faq' ? 'active' : ''}`} 
                 onClick={() => setActiveMethod('faq')}
                 style={{ 
-                  background: activeMethod === 'faq' ? '#b892ff' : 'transparent',
+                  background: activeMethod === 'faq' ? '#6acf5dff' : 'transparent',
                   color: activeMethod === 'faq' ? 'white' : '#666',
                   borderRadius: '30px',
                   padding: '10px 20px',
@@ -162,7 +162,7 @@ export default function Contact() {
               <div className="row">
                 <div className="col-lg-6 mb-4 mb-lg-0">
                   <div className="p-4">
-                    <h3 className="mb-4" style={{ color: '#ff85a2' }}>
+                    <h3 className="mb-4" style={{ color: '#FF9E80' }}>
                       <i className="bi bi-chat-heart-fill me-2"></i>
                       ส่งข้อความถึงแมว
                     </h3>
@@ -228,7 +228,7 @@ export default function Contact() {
                         type="submit" 
                         className="btn px-4 py-2" 
                         style={{ 
-                          background: '#ff85a2', 
+                          background: '#FF9E80', 
                           color: 'white', 
                           borderRadius: '30px',
                           boxShadow: '0 4px 10px rgba(0,0,0,0.1)',
@@ -255,7 +255,7 @@ export default function Contact() {
                       <div className="position-absolute" style={{ 
                         bottom: '10px', 
                         right: '10px', 
-                        background: '#ff85a2', 
+                        background: '#FF9E80', 
                         width: '60px', 
                         height: '60px', 
                         borderRadius: '50%', 
@@ -398,7 +398,7 @@ export default function Contact() {
             {/* FAQ */}
             {activeMethod === 'faq' && (
               <div>
-                <h3 className="mb-4" style={{ color: '#b892ff' }}>
+                <h3 className="mb-4" style={{ color: '#6acf5dff' }}>
                   <i className="bi bi-question-circle-fill me-2"></i>
                   คำถามที่พบบ่อย
                 </h3>
@@ -420,7 +420,7 @@ export default function Contact() {
                             padding: '15px 20px'
                           }}
                         >
-                          <i className="bi bi-question-circle me-2" style={{ color: '#b892ff' }}></i>
+                          <i className="bi bi-question-circle me-2" style={{ color: '#6acf5dff' }}></i>
                           {item.question}
                         </button>
                       </h2>
@@ -443,7 +443,7 @@ export default function Contact() {
                     className="btn px-4 py-2" 
                     onClick={() => setActiveMethod('form')}
                     style={{ 
-                      background: '#b892ff', 
+                      background: '#6acf5dff', 
                       color: 'white', 
                       borderRadius: '30px',
                       boxShadow: '0 4px 10px rgba(0,0,0,0.1)',
