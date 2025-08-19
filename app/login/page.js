@@ -86,7 +86,7 @@ export default function Login() {
                       style={{
                         width: "80px",
                         height: "80px",
-                        background: "linear-gradient(135deg, #ff85a2, #ff6b8a)",
+                        background: "linear-gradient(135deg, #FF9E80, #FF9E80)",
                       }}
                     >
                       <i
@@ -95,7 +95,7 @@ export default function Login() {
                       ></i>
                     </div>
                   </div>
-                  <h2 className="fw-bold mb-2" style={{ color: "#ff85a2" }}>
+                  <h2 className="fw-bold mb-2" style={{ color: "#FF9E80" }}>
                     เข้าสู่ระบบ
                   </h2>
                   <p className="text-muted">
@@ -112,7 +112,7 @@ export default function Login() {
                     >
                       <i
                         className="bi bi-person me-2"
-                        style={{ color: "#ff85a2" }}
+                        style={{ color: "#FF9E80" }}
                       ></i>
                       ชื่อผู้ใช้ <span className="text-danger">*</span>
                     </label>
@@ -149,7 +149,7 @@ export default function Login() {
                     >
                       <i
                         className="bi bi-lock me-2"
-                        style={{ color: "#ff85a2" }}
+                        style={{ color: "#FF9E80" }}
                       ></i>
                       รหัสผ่าน <span className="text-danger">*</span>
                     </label>
@@ -178,7 +178,7 @@ export default function Login() {
                         style={{
                           border: "none",
                           background: "transparent",
-                          color: "#ff85a2",
+                          color: "#FF9E80",
                         }}
                       >
                         <i
@@ -206,7 +206,7 @@ export default function Login() {
                         checked={formData.rememberMe}
                         onChange={handleInputChange}
                         className="form-check-input"
-                        style={{ borderColor: "#ff85a2" }}
+                        style={{ borderColor: "#FF9E80" }}
                       />
                       <label
                         htmlFor="rememberMe"
@@ -218,7 +218,7 @@ export default function Login() {
                     <Link
                       href="#"
                       className="text-decoration-none small"
-                      style={{ color: "#ff85a2" }}
+                      style={{ color: "#FF9E80" }}
                     >
                       ลืมรหัสผ่าน?
                     </Link>
@@ -231,7 +231,7 @@ export default function Login() {
                       onClick={handleSubmit}
                       className="btn btn-lg py-3"
                       style={{
-                        background: "linear-gradient(135deg, #ff85a2, #ff6b8a)",
+                        background: "linear-gradient(135deg, #fca78dff, #ff825cff)",
                         border: "none",
                         borderRadius: "12px",
                         color: "white",
@@ -311,7 +311,7 @@ export default function Login() {
                       <a
                         href="#"
                         className="text-decoration-none fw-semibold ms-1"
-                        style={{ color: "#ff85a2" }}
+                        style={{ color: "#FF9E80" }}
                       >
                         สมัครสมาชิกเลย
                       </a>
