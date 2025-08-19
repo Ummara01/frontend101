@@ -84,7 +84,7 @@ export default function About() {
               style={{
                 bottom: "10px",
                 right: "10px",
-                background: "#ff85a2",
+                background: "#FF9E80",
                 width: "60px",
                 height: "60px",
                 borderRadius: "50%",
@@ -101,7 +101,7 @@ export default function About() {
         </div>
         <div className="col-lg-7">
           <div className="p-4 rounded-4 shadow-sm">
-            <h1 className="display-5 fw-bold mb-2" style={{ color: "#ff85a2" }}>
+            <h1 className="display-5 fw-bold mb-2" style={{ color: "#FF9E80" }}>
               {personalInfo.name}
             </h1>
             <h3 className="fs-4 mb-3 text-secondary">
@@ -120,7 +120,7 @@ export default function About() {
                     style={{
                       width: "45px",
                       height: "45px",
-                      background: "#ff85a2",
+                      background: "#FF9E80",
                       borderRadius: "50%",
                       display: "flex",
                       alignItems: "center",
@@ -149,7 +149,7 @@ export default function About() {
                 className={`nav-link ${activeTab === "story" ? "active" : ""}`}
                 onClick={() => setActiveTab("story")}
                 style={{
-                  background: activeTab === "story" ? "#ff85a2" : "transparent",
+                  background: activeTab === "story" ? "#FF9E80" : "transparent",
                   color: activeTab === "story" ? "white" : "#666",
                   borderRadius: "30px",
                   padding: "10px 20px",
@@ -168,7 +168,7 @@ export default function About() {
                 onClick={() => setActiveTab("skills")}
                 style={{
                   background:
-                    activeTab === "skills" ? "#7ec4cf" : "transparent",
+                    activeTab === "skills" ? "#72dfdfff" : "transparent",
                   color: activeTab === "skills" ? "white" : "#666",
                   borderRadius: "30px",
                   padding: "10px 20px",
@@ -189,7 +189,7 @@ export default function About() {
                 onClick={() => setActiveTab("experience")}
                 style={{
                   background:
-                    activeTab === "experience" ? "#b892ff" : "transparent",
+                    activeTab === "experience" ? "#76df69ff" : "transparent",
                   color: activeTab === "experience" ? "white" : "#666",
                   borderRadius: "30px",
                   padding: "10px 20px",
@@ -224,7 +224,7 @@ export default function About() {
             {/* My Story Tab */}
             {activeTab === "story" && (
               <div className="story-content">
-                <h3 className="mb-4" style={{ color: "#ff85a2" }}>
+                <h3 className="mb-4" style={{ color: "#FF9E80" }}>
                   <i className="bi bi-quote me-2"></i>
                   เรื่องราวของฉัน
                 </h3>
@@ -268,7 +268,7 @@ export default function About() {
             {/* Skills Tab */}
             {activeTab === "skills" && (
               <div className="skills-content">
-                <h3 className="mb-4" style={{ color: "#7ec4cf" }}>
+                <h3 className="mb-4" style={{ color: "#72dfdfff" }}>
                   <i className="bi bi-lightning-charge me-2"></i>
                   ทักษะและความสามารถ
                 </h3>
@@ -287,7 +287,7 @@ export default function About() {
                                 style={{
                                   width: "30px",
                                   height: "30px",
-                                  background: "#7ec4cf",
+                                  background: "#72dfdfff",
                                   borderRadius: "50%",
                                   display: "flex",
                                   alignItems: "center",
@@ -319,7 +319,7 @@ export default function About() {
                                 <span
                                   className="badge rounded-pill"
                                   style={{
-                                    background: "#7ec4cf",
+                                    background: "#72dfdfff",
                                     padding: "8px 12px",
                                   }}
                                 >
@@ -393,7 +393,7 @@ export default function About() {
             {/* Experience Tab */}
             {activeTab === "experience" && (
               <div className="experience-content">
-                <h3 className="mb-4" style={{ color: "#b892ff" }}>
+                <h3 className="mb-4" style={{ color: "#76df69ff" }}>
                   <i className="bi bi-briefcase me-2"></i>
                   ประสบการณ์การทำงาน
                 </h3>
@@ -406,7 +406,7 @@ export default function About() {
                           <span
                             className="badge rounded-pill"
                             style={{
-                              background: "#b892ff",
+                              background: "#76df69ff",
                               padding: "8px 12px",
                             }}
                           >
@@ -427,7 +427,7 @@ export default function About() {
                             <li className="mb-2 d-flex align-items-center">
                               <i
                                 className="bi bi-check-circle-fill me-2"
-                                style={{ color: "#b892ff" }}
+                                style={{ color: "#76df69ff" }}
                               ></i>
                               {index === 0
                                 ? "พัฒนาโครงการ “Warm Home for Cats” ที่ช่วยหาครอบครัวใหม่ให้น้องแมวมากกว่า 100 ตัว"
@@ -436,7 +436,7 @@ export default function About() {
                             <li className="mb-2 d-flex align-items-center">
                               <i
                                 className="bi bi-check-circle-fill me-2"
-                                style={{ color: "#b892ff" }}
+                                style={{ color: "##76df69ff" }}
                               ></i>
                               {index === 0
                                 ? "มีส่วนร่วมในการจัดกิจกรรมหาบ้านให้น้องแมวที่สามารถจับคู่แมวกับครอบครัวใหม่ได้อย่างเหมาะสม"
