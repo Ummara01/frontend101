@@ -143,9 +143,9 @@ export default function Service() {
   // หมวดหมู่ทั้งหมด
   const categories = [
     { id: 'all', name: 'ทั้งหมด', icon: 'bi-grid-fill', color: '#ff85a2' },
-    { id: 'cultural', name: 'แมวพันธ์', icon: 'bi-water', color: '#7ec4cf' },
-    { id: 'adventure', name: 'แมวบ้าน', icon: 'bi-bank2', color: '#b892ff' },
-    { id: 'beach', name: 'แมวป่า', icon: 'bi-tree-fill', color: '#ff85a2' }
+    { id: 'cultural', name: 'แมวพันธ์', icon: 'bi-water', color: '#5bae9e' },
+    { id: 'adventure', name: 'แมวบ้าน', icon: 'bi-bank2', color: '#ffaf38ff' },
+    { id: 'beach', name: 'แมวป่า', icon: 'bi-tree-fill', color: '#2bd32bff' }
   ];
 
   return (
@@ -196,8 +196,8 @@ export default function Service() {
                 }}>
                   <div className="d-flex justify-content-between align-items-center">
                     <span className="badge rounded-pill" style={{ 
-                      background: service.category === 'cultural' ? '#7ec4cf' : 
-                                service.category === 'adventure' ? '#b892ff' : '#ff85a2',
+                      background: service.category === 'cultural' ? '#5bae9e' : 
+                                service.category === 'adventure' ? '#ffaf38ff' : '#228f22c0',
                       padding: '8px 12px'
                     }}>
                       <i className={`bi ${
@@ -216,8 +216,8 @@ export default function Service() {
               </div>
               <div className="card-body p-4">
                 <h5 className="card-title mb-3" style={{ 
-                  color: service.category === 'cultural' ? '#7ec4cf' : 
-                         service.category === 'adventure' ? '#b892ff' : '#ff85a2'
+                  color: service.category === 'cultural' ? '#5bae9e' : 
+                         service.category === 'adventure' ? '#ffaf38ff' : '#1f8d1fc0'
                 }}>{service.title}</h5>
                 <p className="card-text mb-3">{service.description}</p>
                 <div className="mb-3">
@@ -226,8 +226,8 @@ export default function Service() {
                     {service.highlights.map((highlight, index) => (
                       <li key={index} className="mb-1 d-flex align-items-center">
                         <i className="bi bi-check-circle-fill me-2" style={{ 
-                          color: service.category === 'cultural' ? '#7ec4cf' : 
-                                service.category === 'adventure' ? '#b892ff' : '#ff85a2'
+                          color: service.category === 'cultural' ? '#5bae9e' : 
+                                service.category === 'adventure' ? '#ffaf38ff' : '#239c23c0'
                         }}></i>
                         {highlight}
                       </li>
@@ -237,15 +237,15 @@ export default function Service() {
               </div>
               <div className="card-footer bg-white border-0 p-4 pt-0 d-flex justify-content-between align-items-center">
                 <div className="fw-bold" style={{ 
-                  color: service.category === 'cultural' ? '#7ec4cf' : 
-                         service.category === 'adventure' ? '#b892ff' : '#ff85a2',
+                  color: service.category === 'cultural' ? '#5bae9e' : 
+                         service.category === 'adventure' ? '#ffaf38ff' : '#24aa24c0',
                   fontSize: '1.1rem'
                 }}>
                   {service.price}
                 </div>
                 <button className="btn px-4 py-2" style={{ 
-                  background: service.category === 'cultural' ? '#7ec4cf' : 
-                            service.category === 'adventure' ? '#b892ff' : '#ff85a2',
+                  background: service.category === 'cultural' ? '#5bae9e' : 
+                            service.category === 'adventure' ? '#ffaf38ff' : '#28a128ff',
                   color: 'white',
                   borderRadius: '30px'
                 }}>
